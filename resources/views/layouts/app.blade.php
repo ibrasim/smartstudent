@@ -56,7 +56,7 @@
                         @else
                             <li class="nav-item dropdown">
                                 <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
-                                    {{ Auth::user()->name }}
+                                   Local Online News
                                 </a>
 
                                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
@@ -100,7 +100,7 @@
                         @else
                             <li class="nav-item dropdown">
                                 <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
-                                    {{ Auth::user()->name }}
+                                    Laravel sources
                                 </a>
 
                                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
@@ -113,15 +113,15 @@
                                   
                                     <br>
                                     
-                                    <a href="https://sun.mv/" target="_blank"  >sun</a>
+                                    <a href="https://www.youtube.com/watch?v=X55i3UI3iZY" target="_blank"  >laravel crud</a>
                                     <br>
-                                    <a href="https://mihaaru.com/" target="_blank">mihaaru</a>
+                                    <a href="https://www.youtube.com/watch?v=m0IsbkfONL4" target="_blank">laravel relationship</a>
                                     <br>
-                                    <a href="https://avas.mv/" target="_blank"  >avas</a>
+                                    <a href="https://artisansweb.net/database-seeding-laravel/" target="_blank"  >laravel DB seed</a>
                                     <br>
-                                    <a href="https://raajje.mv/" target="_blank"  >raajje</a>
+                                    <a href="https://artisansweb.net/how-to-use-laravel-events-and-listeners-in-your-application/" target="_blank"  >laravel events listner</a>
                                     <br>
-                                    <a href="https://psmnews.mv/" target="_blank"  >psm</a>
+                                    <a href="https://www.youtube.com/watch?v=lVUFuS1EQhM" target="_blank"  >laravel task managment</a>
                                     
 
                                 </div>
