@@ -20,3 +20,17 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+
+Route::get('/table', function () {
+   for($i =1; $i <= 10 ; $i++){
+       echo "$i * 7 = ". $i*7 ."<br>";
+   }   
+});
+
+
+Route::get('/table/{number}', function ($number) {
+   for($i =1; $i <= 10 ; $i++){
+       echo "$i * $number = ". $i* $number ."<br>";
+   }   
+});
